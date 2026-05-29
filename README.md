@@ -39,6 +39,7 @@ The project is a responsive Walmart inspired website created using HTML and CSS.
 - Added box shadows, borders and background colours
 - Styled button with hover and active effects
 - Added footer styling
+- Removed elements that are not needed from part 1
 
 ## Technologies used
 - HTML5
@@ -63,4 +64,7 @@ the website layout was updated using a multi-column grid layout for larger scree
 - Adjust font sizes for different screen sizes
 - Modify the navigation layout
 - Change spacing and padding
-- Improve the display of content on smaller screens 
+- Improve the display of content on smaller screens
+
+### Created different files for style.css and responsive.css
+- Checked if responsive design works on all screens 

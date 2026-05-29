@@ -1,0 +1,209 @@
+/* Breakpoint 1 : Tablet devices */
+@media screen and (max-width:768px){
+    body{
+        font-size:0.95rem;
+        padding:0;
+        margin:0;
+    }
+
+    /* Navigation */
+    nav{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        padding:1rem;
+    }
+
+    nav ul{
+        flex-direction:column;
+        gap:1rem;
+        margin-top:1rem;
+        padding:0;
+    }
+
+    nav ul li{
+        list-style: none;
+    }
+
+    /* Hero section / Index */
+    .hero{
+        padding:3rem 1rem;
+        text-align: center;
+    }
+    .hero h1{
+       font-size:2.2rem;
+    }
+    .hero p{
+        font-size:1rem;
+    }
+
+    /* About us section */
+    .about-content{
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .about-content img{
+        width:100%;
+        max-width:400;
+    }
+
+    /* Services section */
+
+    .services-container{
+        grid-template-columns: 1fr;
+        gap:1.5rem;
+        padding:2rem;
+    }
+
+    .services-card{
+        width:100%;
+        padding: 1.5rem;
+    }
+
+    /* Contact us */
+    .contact-container{
+        width:95%;
+        padding:1.5rem;
+    }
+    .contact-card{
+        width:100%;
+    }
+   
+    /* Enquiry section */
+    .enquiry-container{
+        width:90%;
+        padding:2rem;
+    }
+    .enquiry-container iframe{
+        width:100%;
+        font-size:1rem;
+    }
+    /* Footer */
+    footer{
+        text-align:center;
+        padding:1rem;
+    }
+
+    /* Change multi-column to 2 columns */
+    .content{
+        grid-template-columns: repeat (2,1fr);
+    }
+}
+
+/* Breakpoint 2: Mobile devices */
+
+@media screen and (max-width:480px){
+    /* Prevent overflow */
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+    
+    /* Navigation */
+    nav{
+        width:100%;
+    }
+    nav ul{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        gap:1rem;
+        padding:1rem 0;
+        margin:0;
+    }
+    nav ul li{
+        list-style:none;
+    }
+
+    .hero{
+        padding:2rem 1rem;
+    }
+
+    .hero h1{
+        font-size:1.6rem;
+    }
+
+    .hero p{
+        font-size:0.9rem;
+    }
+
+    /* About us */
+    .about-content{
+        padding:1rem;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+    }
+    .about-content h2{
+        font-size:1.5rem;
+    }
+    .about-content p{
+        font-size:0.9rem;
+    }
+
+    /* Services section */
+    .services-content{
+        padding:1rem;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+    }
+    .service-card{
+        width:100%;
+        margin-bottom:1rem;
+    }
+
+    /* Contact us */
+    .contact-content{
+        padding:1rem;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+    }
+    .contact-container{
+        padding:1rem;
+    }
+    .contact-card{
+        width:100%;
+    }
+
+    /* Enquiry */
+    .enquiry-content{
+        padding:1rem;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+    }
+    .enquiry-container{
+        width:95%;
+        padding:1rem;
+    }
+    .enquiry-container iframe{
+        padding:0.8rem;
+        font-size:0.9rem;
+    }
+
+    /* Images */
+    img{
+        width:100%;
+        height:auto;
+    }
+
+    /* Footer */
+    footer{
+        font-size:0.9rem;
+        padding:1rem;
+    }
+
+    /* Switch to single column layout */
+    .content{
+        grid-template-columns: 1fr;
+    }
+}
