@@ -88,11 +88,11 @@ The navigation bar was updated to become fully resposive
 
  # Website screenshot 3.4 
  ## Homepage
- ![Desktop](images/desktop.png)
- ![Mobile](images/mobile%20phone%20.png)
- ![Tablet](images/tablet.png)
+ ![Desktop](Images/desktop.png)
+ ![Mobile](Images/mobile%20phone%20.png)
+ ![Tablet](Images/tablet.png)
 
- ## Servives
- ![Desktop](images/desktp%202.png)
- ![Mobile](images/mobile%20phone%202.png)
- ![Tablet](images/tablet%202.png)
+ ## Services
+ ![Desktop](Images/desktp%202.png)
+ ![Mobile](Images/mobile%20phone%202.png)
+ ![Tablet](Images/tablet%202.png)
