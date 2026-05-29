@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive images</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+<body>
+    <img
+    src="return.webp"
+    srcset="
+            return.webp 480w,
+            return.webp 768w,
+            return.webp 1200w"
+    
+    sizes="
+           (max-width:480px) 100vw,
+           (max-width:768px) 80vw,
+    "
+    alt="Return and exchange">
+
+    <img
+    src="money.jpeg"
+    srcset="
+            money.jpeg 480w,
+            money.jpeg 768w,
+            money.jpeg 1200w"
+    
+    sizes="
+           (max-width:480px) 100vw,
+           (max-width:768px) 80vw,
+    "
+    alt="Money Center">
+
+    <img
+    src="health.jpeg"
+    srcset="
+            health.jpeg 480w,
+            health.jpeg 768w,
+            health.jpeg 1200w"
+    
+    sizes="
+           (max-width:480px) 100vw,
+           (max-width:768px) 80vw,
+    "
+    alt="Pharmacy and Health">
+
+    <img
+    src="sidepickup.jpeg"
+    srcset="
+            sidepickup.jpeg 480w,
+            sidepickup.jpeg 768w,
+            sidepickup.jpeg 1200w"
+            
+    sizes="
+           (max-width:480px) 100vw,
+           (max-width:768px) 80vw,
+    "
+    alt="Curbside pickup">
+    
+    <img
+    src="happy.family.jpg"
+    srcset="
+            happy.family.jpg 480w,
+            happy.family.jpg 768w,
+            happy.family.jpg 1200w"
+    
+    sizes="
+           (max-width:480px) 100vw,
+           (max-width:768px) 80vw,
+    "
+    alt="Happy family">
+    <img
+    src="leadership.jpeg"
+    srcset="
+            leadership.jpeg 480w,
+            leadership.jpeg 768w,
+           leadership.jpeg 1200w"
+    
+    sizes="
+           (max-width:480px) 100vw,
+           (max-width:768px) 80vw,
+    "
+    alt="Leadership team">
+
+    /* Using picture element */
+    <picture>
+        <!--Mobile Image-->
+        <source
+        media="(max-width:480px)"
+        srcset="return.webp">
+
+        <!--Tablet Image-->
+        <source
+        media="(max-width:768px)"
+        srcset="return.webp">
+
+        <!--Desktop Image-->
+        <source
+        media="(max-width:1200px)"
+        srcset="return.webp">
+    </picture>
+
+    <picture>
+        <!--Mobile Image-->
+        <source
+        media="(max-width:480px)"
+        srcset="money.jpeg">
+
+        <!--Tablet Image-->
+        <source
+        media="(max-width:768px)"
+        srcset="money.jpeg">
+
+        <!--Desktop Image-->
+        <source
+        media="(max-width:1200px)"
+        srcset="money.jpeg">
+    </picture>
+
+    <picture>
+        <!--Mobile Image-->
+        <source
+        media="(max-width:480px)"
+        srcset="health.jpeg">
+
+        <!--Tablet Image-->
+        <source
+        media="(max-width:768px)"
+        srcset="health.jpeg">
+
+        <!--Desktop Image-->
+        <source
+        media="(max-width:1200px)"
+        srcset="health.jpeg">
+    </picture>
+
+    <picture>
+        <!--Mobile Image-->
+        <source
+        media="(max-width:480px)"
+        srcset="sidepickup.jpeg">
+
+        <!--Tablet Image-->
+        <source
+        media="(max-width:768px)"
+        srcset="sidepickup.jpeg">
+
+        <!--Desktop Image-->
+        <source
+        media="(max-width:1200px)"
+        srcset="sidepickup.jpeg">
+    </picture>
+
+    <picture>
+        <!--Mobile Image-->
+        <source
+        media="(max-width:480px)"
+        srcset="happy.family.jpg">
+
+        <!--Tablet Image-->
+        <source
+        media="(max-width:768px)"
+        srcset="happy.family.jpg">
+
+        <!--Desktop Image-->
+        <source
+        media="(max-width:1200px)"
+        srcset="happy.family.jpg">
+    </picture>
+
+    <picture>
+        <!--Mobile Image-->
+        <source
+        media="(max-width:480px)"
+        srcset="leadership.jpeg">
+
+        <!--Tablet Image-->
+        <source
+        media="(max-width:768px)"
+        srcset="leadership.jpeg">
+
+        <!--Desktop Image-->
+        <source
+        media="(max-width:1200px)"
+        srcset="leadership.jpeg">
+    </picture>
+</body>
+</html>

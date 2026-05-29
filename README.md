@@ -67,4 +67,32 @@ the website layout was updated using a multi-column grid layout for larger scree
 - Improve the display of content on smaller screens
 
 ### Created different files for style.css and responsive.css
-- Checked if responsive design works on all screens 
+
+## Navigation updates
+The navigation bar was updated to become fully resposive
+
+## Responsive styling
+- adjusting font sizes using relative units such as rem
+- using percentage for responsive widts
+- improving spacing and alignment
+- making buttons and images resposnsive
+
+ ## Responsive images
+ Responsive techniques were implemented using:
+ - srcset attributes
+ - sizes attributes
+ - picture elements
+
+ ## Additional enhancements
+ - Improved content orginasation and spacing
+
+ # Website screenshot 3.4 
+ ## Homepage
+ ![Desktop](images/desktop.png)
+ ![Mobile](images/mobile%20phone%20.png)
+ ![Tablet](images/tablet.png)
+
+ ## Servives
+ ![Desktop](images/desktp%202.png)
+ ![Mobile](images/mobile%20phone%202.png)
+ ![Tablet](images/tablet%202.png)
